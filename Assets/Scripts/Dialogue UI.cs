@@ -5,35 +5,47 @@ using UnityEngine.InputSystem;
 
 public class DialogueUI : MonoBehaviour
 {
+    [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text textLabel;
     [SerializeField] private DialogueObject testDialogue;
 
-    private bool spacePressed;
-
+    private ResponseHandler responseHandler;
     private TypewriterEffect typewriterEffect;
 
     private void Start() {
         typewriterEffect = GetComponent<TypewriterEffect>();
+        responseHandler = GetComponent<ResponseHandler>();
         ShowDialogue(testDialogue);
     }
 
-    private void Update() {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame) {
-            spacePressed = true;
-        }
-    }
-
     public void ShowDialogue(DialogueObject dialogueObject) {
+        dialogueBox.SetActive(true);
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject) {
-        yield return new WaitForSeconds(1);
 
-        foreach (string dialogue in dialogueObject.Dialogue) {
-            yield return typewriterEffect.Run(dialogue, textLabel); 
-            spacePressed = false;
-            yield return new WaitUntil(() => spacePressed);
+        for (int i = 0; i < dialogueObject.Dialogue.Length; i++) {
+            string dialogue = dialogueObject.Dialogue[i];
+            yield return typewriterEffect.Run(dialogue, textLabel);
+
+            if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) {
+                break;
+            }
+
+            yield return new WaitUntil(() => Keyboard.current.spaceKey.wasPressedThisFrame);
+    
         }
+
+        if (dialogueObject.HasResponses) {
+            responseHandler.ShowResponses(dialogueObject.Responses);
+        } else {
+            CloseDialogueBox();
+        }
+    }
+
+    private void CloseDialogueBox() {
+        dialogueBox.SetActive(false);
+        textLabel.text = string.Empty;
     }
 }

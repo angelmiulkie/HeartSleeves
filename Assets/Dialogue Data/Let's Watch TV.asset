@@ -10,11 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
-  m_Name: Testing
+  m_Name: Let's Watch TV
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - What a long day... I think I need to do something to relax.
-  - I'm thinking maybe watching TV?
-  responses:
-  - responseText: Let's Watch TV
-    dialogueObject: {fileID: 11400000, guid: 5e664aa92c110db43aa04aa0481abbf6, type: 2}
+  - Yeah, good idea.
+  responses: []
