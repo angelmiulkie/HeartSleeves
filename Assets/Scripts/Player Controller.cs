@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
         // moveInput = context.ReadValue<Vector2>();
         // animator.SetFloat("InputX", moveInput.x);
-        // animator.SetFloat("InputY", moveInput.y);
+        //  animator.SetFloat("InputY", moveInput.y);
 
         moveInput = context.ReadValue<Vector2>();
 
