@@ -307,6 +307,8 @@ GameObject:
   m_Component:
   - component: {fileID: 328331383}
   - component: {fileID: 328331382}
+  - component: {fileID: 328331384}
+  - component: {fileID: 328331385}
   m_Layer: 0
   m_Name: Cutscene Timeline
   m_TagString: Untagged
@@ -333,6 +335,8 @@ PlayableDirector:
     value: {fileID: 889788352}
   - key: {fileID: 5737061547824240076, guid: da5e877ad104ea040ae2f934c57ff938, type: 2}
     value: {fileID: 889788352}
+  - key: {fileID: -4342834418689286072, guid: da5e877ad104ea040ae2f934c57ff938, type: 2}
+    value: {fileID: 328331385}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &328331383
@@ -350,6 +354,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &328331384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328331381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885305797f2e08c46b744a68d2ea2a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
+  director: {fileID: 328331382}
+  dialogueUI: {fileID: 1628993666}
+  cutsceneDialogue: {fileID: 11400000, guid: 92b2a1af5c11aac4590d9faf507eccf3, type: 2}
+  playerControllerScript: {fileID: 889788355}
+--- !u!114 &328331385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328331381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 67b61508939d7d24389052d7ed1ac3df, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 328331384}
+          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
+          m_MethodName: PauseAndTriggerDialogue
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &733784241
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +709,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 4448795924345467145, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
   m_PrefabInstance: {fileID: 4413842514847653075}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &889788355 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2079689506119622387, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+  m_PrefabInstance: {fileID: 4413842514847653075}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888c72a08f144724490b5bdb29849b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
 --- !u!1 &901399278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,6 +1414,21 @@ MonoBehaviour:
   dialogueBox: {fileID: 1726892552}
   textLabel: {fileID: 757762916}
   testDialogue: {fileID: 11400000, guid: 92b2a1af5c11aac4590d9faf507eccf3, type: 2}
+  onDialogueComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 328331384}
+        m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
+        m_MethodName: ResumeCutscene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1628993667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1517,7 +1593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1726892553
 RectTransform:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -9,13 +10,15 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TMP_Text textLabel;
     [SerializeField] private DialogueObject testDialogue;
 
+    [SerializeField] private UnityEvent onDialogueComplete;
+
     private ResponseHandler responseHandler;
     private TypewriterEffect typewriterEffect;
 
     private void Start() {
         typewriterEffect = GetComponent<TypewriterEffect>();
         responseHandler = GetComponent<ResponseHandler>();
-        ShowDialogue(testDialogue);
+        // ShowDialogue(testDialogue);
     }
 
     public void ShowDialogue(DialogueObject dialogueObject) {
@@ -44,8 +47,10 @@ public class DialogueUI : MonoBehaviour
         }
     }
 
-    private void CloseDialogueBox() {
+    public void CloseDialogueBox() {
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;
+
+        onDialogueComplete?.Invoke();
     }
 }
