@@ -1,5 +1,8 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement; 
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,6 +10,15 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
+
+    // Interactables
+    [SerializeField] private GameObject ePromptSprite; // E Sprite Object
+    private GameObject currentInteractable;
+
+    // Scene Switch
+    // [SerializeField] private string sceneToLoad;
+    private bool canInteract = false; // This tracks if the player is in the interact bubble
+    [SerializeField] Animator transitionAnim;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,6 +31,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         rb.linearVelocity= moveInput * moveSpeed;
+
+        if (canInteract && Keyboard.current.eKey.wasPressedThisFrame) {
+            InteractAndSwitchScene();
+        }
     }
 
     public void Move(InputAction.CallbackContext context) {
@@ -55,6 +71,39 @@ public class PlayerController : MonoBehaviour
         if (animator != null) {
             animator.SetBool("isWalking", false);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.CompareTag("Interactable")) {
+            currentInteractable = other.gameObject;
+            canInteract = true;
+            ePromptSprite.SetActive(true); // This shows the "E"
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        if (other.CompareTag("Interactable") && other.gameObject == currentInteractable) {
+            currentInteractable = null;
+            canInteract = false;
+            ePromptSprite.SetActive(false); // This hides the "E"
+        }
+    }
+
+    private void InteractAndSwitchScene() {
+        if (ePromptSprite != null) {
+            ePromptSprite.SetActive(false);
+        }
+
+       StartCoroutine(PlaySceneRoutine());
+    }
+
+    private IEnumerator PlaySceneRoutine() {
+        if (transitionAnim != null) {
+            transitionAnim.SetTrigger("End");
+        }
+
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadSceneAsync(2);
     }
     
 }
