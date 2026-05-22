@@ -35,6 +35,7 @@ public class CutsceneManager : MonoBehaviour
     }
 
     public void ResumeCutscene() {
+       Debug.Log("[CutsceneManager] ResumeCutscene() was successfully called! Telling director to play.");
        isDialogueActive = false;
        EnablePlayerMovement();
        director.Play();
