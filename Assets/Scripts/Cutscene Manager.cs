@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class CutsceneManager : MonoBehaviour
 {
@@ -64,6 +65,11 @@ public class CutsceneManager : MonoBehaviour
                 rb.bodyType = RigidbodyType2D.Kinematic;
             }
         }
+    }
+
+    public void ChangeSceneOnDialogueEnd() {
+        SceneManager.LoadSceneAsync(3);
+        
     }
     
 }

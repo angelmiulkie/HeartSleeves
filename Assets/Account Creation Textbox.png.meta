@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fa83633be3c939546a5912c3948e4a28
+guid: 05d6a72cd4cd9b94181913a5de905e63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6883542248480868748
-    second: Apartment Bedroom_0
+      213: -5329156485078062986
+    second: Account Creation Textbox_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Apartment Bedroom_0
+      name: Account Creation Textbox_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 6
-        width: 89
-        height: 94
+        x: 0
+        y: 0
+        width: 38
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8988155431478f50800000000000000
-      internalID: 6883542248480868748
+      spriteID: 678e37279680b06b0800000000000000
+      internalID: -5329156485078062986
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Apartment Bedroom_0: 6883542248480868748
+      Account Creation Textbox_0: -5329156485078062986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

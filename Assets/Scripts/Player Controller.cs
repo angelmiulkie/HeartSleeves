@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     private bool canInteract = false; // This tracks if the player is in the interact bubble
     [SerializeField] Animator transitionAnim;
 
+    [SerializeField] private int sceneToLoad;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -103,7 +105,7 @@ public class PlayerController : MonoBehaviour
         }
 
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(sceneToLoad);
     }
     
 }

@@ -322,12 +322,27 @@ MonoBehaviour:
   m_Events:
     m_Signals:
     - {fileID: 11400000, guid: ec61b0dd0152bb143a56af8d6abf6572, type: 2}
+    - {fileID: 11400000, guid: 65b2fac10a0ea6146a9d4b90788e9a4b, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 540922050}
           m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
           m_MethodName: PauseAndTriggerDialogue
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 540922050}
+          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
+          m_MethodName: ChangeSceneOnDialogueEnd
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1144,6 +1159,8 @@ PlayableDirector:
   - key: {fileID: -4429888538445063954, guid: 3a3f34fa67dbbec48a6117ea1f08b3cb, type: 2}
     value: {fileID: 1018434966}
   - key: {fileID: 2302396578411265108, guid: 3a3f34fa67dbbec48a6117ea1f08b3cb, type: 2}
+    value: {fileID: 540922051}
+  - key: {fileID: -7405568393186001337, guid: 3a3f34fa67dbbec48a6117ea1f08b3cb, type: 2}
     value: {fileID: 540922051}
   m_ExposedReferences:
     m_References: []
