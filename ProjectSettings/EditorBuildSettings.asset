@@ -17,5 +17,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 2.unity
     guid: 12d8f914c210e2844af4d2e17f879f61
+  - enabled: 1
+    path: Assets/Scenes/Scene 3.unity
+    guid: af97b9484343c1e40b39b62c9f981d72
+  - enabled: 1
+    path: Assets/Scenes/Scene 4.unity
+    guid: 9d44f7de4e527aa48b6cd36ae64da4aa
+  - enabled: 1
+    path: Assets/Scenes/Creating Dating Profile.unity
+    guid: 44408f9d02f2e1f44b7a322cf9e0970e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

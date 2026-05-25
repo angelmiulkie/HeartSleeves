@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fa83633be3c939546a5912c3948e4a28
+guid: 5e7899308ee0da4419ffe7b90da03f94
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6883542248480868748
-    second: Apartment Bedroom_0
+      213: -4243253477447819332
+    second: Phone Screen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Apartment Bedroom_0
+      name: Phone Screen_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 6
-        width: 89
-        height: 94
+        x: 0
+        y: 0
+        width: 70
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8988155431478f50800000000000000
-      internalID: 6883542248480868748
+      spriteID: cbf18c8a17fec15c0800000000000000
+      internalID: -4243253477447819332
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Apartment Bedroom_0: 6883542248480868748
+      Phone Screen_0: -4243253477447819332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
