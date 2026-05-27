@@ -11,11 +11,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Title Screen.unity
     guid: e070479191ae0a7478bd10113888d071
-  - enabled: 0
-    path: Assets/Scenes/Scene 1.unity
-    guid: 2c16bfaf2bbf73d40ae45795bc331897
   - enabled: 1
     path: Assets/Scenes/DatingAppTest.unity
     guid: cc9484b13f99c96459fe31044ce1ff47
+  - enabled: 1
+    path: Assets/Scenes/Scene 1.unity
+    guid: 2c16bfaf2bbf73d40ae45795bc331897
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
