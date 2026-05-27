@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: MazeIntro
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - Welcome to HeartSleeves!
+  - 'In our state of the art matching system, we collect all of our user''s data,
+    and use advanced algorithms to create an ideal match between users. '
+  - 'Please wait while we gather your data. '
+  - ...
+  - ...
+  - ...
+  - Our system has encountered an error.
+  - We are unable to contact our servers at this time to gather your data.
+  - 'Not to worry! We will instead have you navigate through this maze. '
+  - 'As you navigate, we will determine your problem solving ability, intelligence
+    level, etc. '
+  - 'We have 3 checkpoints for you through the maze. Once you reach a checkpoint,
+    we will set you up with a date using the data we have gathered so far. '
+  - 'This maze is challenging, so if you get lost, sorry about that but just keep
+    going! '
+  - Good luck, and may you find love no matter what!
+  - ...
+  - Also! Forgot to mention, but as you are currently signed up for our free plan,
+    you may see pop up ads throughout the game.
+  responses: []
