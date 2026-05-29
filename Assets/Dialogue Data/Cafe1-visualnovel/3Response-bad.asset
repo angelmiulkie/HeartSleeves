@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
-  m_Name: Cafe Scene Dialogue
+  m_Name: 3Response-bad
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - 'This must be the place. Wow this is...pink.  '
-  - 'I wonder where my date is? '
-  responses:
-  - responseText: Let's Order!
-    dialogueObject: {fileID: 11400000, guid: 08c3562a52c00974483b5509793a1d14, type: 2}
+  - 'You: Oh you see..
+
+'
+  - "You: I just like to dedicate my time really cultivating my finances and brilliant
+    mind. Grinding on coding problems and stocks literally every day. \r\n"
+  - 'Date: That is so rad. We have so much in common.'
+  responses: []

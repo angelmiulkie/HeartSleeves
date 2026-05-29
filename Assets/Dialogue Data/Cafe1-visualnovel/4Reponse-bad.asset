@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: 4Reponse-bad
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "Date: Awesome! *pulls out phone* \r\n"
+  - "Podcast: \u201CEpisode 1: What is a high-value partner? In today\u2019s episode,
+    I will be talking about the traits and signs of a high-value partner so you can
+    find yours today!!! \r\n"
+  - "Podcast: Don\u2019t forget to use my code \u201C#wenotbetas385\u201D to get
+    a discount off of my merch. I will take 2 hours to explain\u2026\u201D "
+  - "5 hours later\u2026."
+  - "Date: And that\u2019s all 100 episodes, can\u2019t believe we listened to everything! "
+  - 'Date: Wow, time flies by for sure. This date has been so enlightening.  '
+  - "Date: Let\u2019s plan for the next one for sure. "
+  - 'You: *cries inside*  '
+  responses: []

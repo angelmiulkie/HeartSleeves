@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: 3Choice
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "Date: I\u2019ll be honest here. I only date the best of the best. I\u2019m very
+    focused career-wise and picky with how I spend my energy.  "
+  - "Date: So, I wanna see if you meet those standards. And don\u2019t worry, I know
+    I already exceed all of yours. "
+  - 'Date: Question 1, What do you like to do in your free time? '
+  responses:
+  - responseText: Be truthful.
+    dialogueObject: {fileID: 11400000, guid: 5877abc95b992f7409a4db252b0a7d88, type: 2}
+  - responseText: Lie.
+    dialogueObject: {fileID: 11400000, guid: 139dbde6ec84d8f4d8171f89ebadc7a3, type: 2}
