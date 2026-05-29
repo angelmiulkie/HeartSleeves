@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
-  m_Name: Cafe Scene Dialogue
+  m_Name: Go To Date
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - 'This must be the place. Wow this is...pink.  '
-  - "That must be my date over there. \r\n "
-  - 'Hair? Good. Clothes? No Wrinkles. Face Card? Slay. '
-  responses:
-  - responseText: Go to Date
-    dialogueObject: {fileID: 11400000, guid: 3ce4f937aade3a94abfa41188c458353, type: 2}
+  - 'Whew... Okay, Let''s go.
+
+'
+  responses: []
