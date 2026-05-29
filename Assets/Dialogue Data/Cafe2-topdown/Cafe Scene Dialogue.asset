@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
-  m_Name: Cafe Scene Response
+  m_Name: Cafe Scene Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - Great Yeah I'm feeling hungry.
-  responses: []
+  - "IS THAT A RAT?!!!?!?\r\n "
+  - 'Ugh is this, a cafe? What''s that smell? '
+  - 'Oh that must be my date over there! '
+  responses:
+  - responseText: Go to Date
+    dialogueObject: {fileID: 11400000, guid: 08c3562a52c00974483b5509793a1d14, type: 2}

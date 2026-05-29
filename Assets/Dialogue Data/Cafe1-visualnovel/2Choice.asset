@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: 2Choice
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "You: So what do you recommend to order here? \r\n"
+  - "You: So what do you recommend to order here? \r\n"
+  - 'Date: OH. I for sure always get the black coffee. No sugar, creamer, or any
+    of those extra things people like to put in their cup.
+
+'
+  - "Date:  Just a triple scoop of protein powder ya feel.  \r\n"
+  - "Date: I\u2019ll just order that for you. Give me a second-\r\n"
+  responses:
+  - responseText: Oh ok.
+    dialogueObject: {fileID: 11400000, guid: cd397dc749788b44dbe3f2505e3c6a69, type: 2}
+  - responseText: I'm alright
+    dialogueObject: {fileID: 11400000, guid: 47d20b104f779fa4181ec3547884f48b, type: 2}

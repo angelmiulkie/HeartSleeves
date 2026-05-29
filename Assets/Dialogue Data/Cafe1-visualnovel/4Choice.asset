@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: 4Choice
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "You: What do you like to do in your free time? \r\n"
+  - "Date: I\u2019m glad you asked. I run my \u201CLife of a True Alpha\u201D podcast
+    in my free time. Over 1,000 daily listeners. Would you like to hear an episode?  "
+  responses:
+  - responseText: Please no.
+    dialogueObject: {fileID: 11400000, guid: a8eb84ce7fa0efe4cb791f2f6133e791, type: 2}
+  - responseText: Omg, just..what I want.
+    dialogueObject: {fileID: 11400000, guid: 80a1369839371cd44a75c8a78f732370, type: 2}
