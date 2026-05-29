@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Cafe Scene Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - "IS THAT A RAT?!!!?!?\r\n "
+  - IS THAT A RAT?!?!??!
   - 'Ugh is this, a cafe? What''s that smell? '
   - 'Oh that must be my date over there! '
   responses:
   - responseText: Go to Date
-    dialogueObject: {fileID: 11400000, guid: 08c3562a52c00974483b5509793a1d14, type: 2}
+    dialogueObject: {fileID: 11400000, guid: e221affb89bdd264c9e73bb02b7dc4aa, type: 2}
