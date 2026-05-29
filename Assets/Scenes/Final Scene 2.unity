@@ -305,7 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
   director: {fileID: 1018434964}
   dialogueUI: {fileID: 1395027788}
-  cutsceneDialogue: {fileID: 11400000, guid: 16f3c5aedd0f4e84abc6258c76fc9bc6, type: 2}
+  cutsceneDialogue: {fileID: 11400000, guid: e65e7ac8a7e038b458e7d9d72734590a, type: 2}
   playerControllerScript: {fileID: 977965277}
   sceneToChange: 0
 --- !u!114 &540922051
@@ -1224,9 +1224,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
   director: {fileID: 1018434964}
   dialogueUI: {fileID: 1395027788}
-  cutsceneDialogue: {fileID: 11400000, guid: e2f4893de32f6a648bf1db3b5a5c5d5e, type: 2}
+  cutsceneDialogue: {fileID: 11400000, guid: cb0bfb70b54cbce43aa384902de39e40, type: 2}
   playerControllerScript: {fileID: 977965277}
-  sceneToChange: 3
+  sceneToChange: 0
 --- !u!1 &1253440542
 GameObject:
   m_ObjectHideFlags: 0
