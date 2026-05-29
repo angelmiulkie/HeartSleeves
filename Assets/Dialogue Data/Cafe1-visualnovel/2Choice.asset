@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
   - "You: So what do you recommend to order here? \r\n"
-  - "You: So what do you recommend to order here? \r\n"
   - 'Date: OH. I for sure always get the black coffee. No sugar, creamer, or any
     of those extra things people like to put in their cup.
 
