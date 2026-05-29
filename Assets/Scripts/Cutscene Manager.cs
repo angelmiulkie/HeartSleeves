@@ -8,6 +8,7 @@ public class CutsceneManager : MonoBehaviour
     [SerializeField] private DialogueUI dialogueUI; 
     [SerializeField] private DialogueObject cutsceneDialogue;
     [SerializeField] private PlayerController playerControllerScript;
+    [SerializeField] private int sceneToChange;
 
     private Vector2 lockedPosition;
     private bool isDialogueActive = false;
@@ -68,7 +69,7 @@ public class CutsceneManager : MonoBehaviour
     }
 
     public void ChangeSceneOnDialogueEnd() {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(sceneToChange);
         
     }
     
