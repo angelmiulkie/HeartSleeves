@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
-  m_Name: 2Response-good
+  m_Name: 4choice good
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - "You: I may have different tastes than you, I\u2019ll probably order a blueberry
-    scone.   "
-  - "Date: Lot\u2019s of calories don\u2019t you think?  "
-  - 'You: Excuse me?  '
-  - 'Date: Nothing.  '
+  - 'You: Oh uhh no thank you.'
+  - "Date: Oh\u2026 Okay"
+  - "Date: So nice guys can\u2019t even win. "
   responses: []

@@ -15,7 +15,8 @@ MonoBehaviour:
   dialogue:
   - "You: What do you like to do in your free time? \r\n"
   - "Date: I\u2019m glad you asked. I run my \u201CLife of a True Alpha\u201D podcast
-    in my free time. Over 1,000 daily listeners. Would you like to hear an episode?  "
+    in my free time. Over 1,000 daily listeners.  "
+  - 'Date: Would you like to hear an episode?  '
   responses:
   - responseText: Please no.
     dialogueObject: {fileID: 11400000, guid: a8eb84ce7fa0efe4cb791f2f6133e791, type: 2}

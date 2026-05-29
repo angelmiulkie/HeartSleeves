@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogue:
   - "Date: Awesome! *pulls out phone* \r\n"
   - "Podcast: \u201CEpisode 1: What is a high-value partner? In today\u2019s episode,
-    I will be talking about the traits and signs of a high-value partner so you can
-    find yours today!!! \r\n"
-  - "Podcast: Don\u2019t forget to use my code \u201C#wenotbetas385\u201D to get
+    I will be talking about the traits...\" \r\n"
+  - 'Podcast: "...and signs of a high-value partner so you can find yours today!!!"  '
+  - "Podcast: \"Don\u2019t forget to use my code \u201C#wenotbetas385\u201D to get
     a discount off of my merch. I will take 2 hours to explain\u2026\u201D "
   - "5 hours later\u2026."
   - "Date: And that\u2019s all 100 episodes, can\u2019t believe we listened to everything! "

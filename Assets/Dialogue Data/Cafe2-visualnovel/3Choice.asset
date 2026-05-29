@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: 3Choice
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - 'You: What do you like to do for fun? '
+  - 'Date: I love the arts. In my free time I feel called to paint.'
+  - 'Date: Do you want to see one of my paintings? '
+  - "Date: I wanted to express my feelings towards women\u2019s period cramps. "
+  responses:
+  - responseText: Yes.
+    dialogueObject: {fileID: 11400000, guid: 9ba9d9ef7e1564744a3374a9a5b137c3, type: 2}
+  - responseText: No.
+    dialogueObject: {fileID: 11400000, guid: 412e1a39fe738224b8218032ed6bc93c, type: 2}

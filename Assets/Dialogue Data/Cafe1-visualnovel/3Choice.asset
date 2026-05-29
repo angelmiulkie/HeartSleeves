@@ -20,6 +20,6 @@ MonoBehaviour:
   - 'Date: Question 1, What do you like to do in your free time? '
   responses:
   - responseText: Be truthful.
-    dialogueObject: {fileID: 11400000, guid: 5877abc95b992f7409a4db252b0a7d88, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 51ad7244921170943bf6dcacedca7444, type: 2}
   - responseText: Lie.
     dialogueObject: {fileID: 11400000, guid: 139dbde6ec84d8f4d8171f89ebadc7a3, type: 2}
