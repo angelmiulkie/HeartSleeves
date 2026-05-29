@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: 1Choice
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "Date: U-uh, hey there! I\u2019m Elliot Hayche. It\u2019s nice to finally meet
+    you. "
+  - 'Date: You''re more good looking than your photos, wow.  '
+  - 'You: Oh thank you, yo- '
+  - "Date: I\u2019m surprised you\u2019d said yes to go on a date with silly \u2018ol
+    me. "
+  - "Date: I\u2019m the kind of person who always gets rejected. Even if I'm so nice.  "
+  - "You: \u2026.. "
+  - 'You: mkay.  '
+  - 'Date: OH I also already ordered for us!  '
+  - "Date: And don\u2019t worry, I\u2019m not like those other people who ask to
+    split the bill. I gotchu pumpkin.  "
+  responses:
+  - responseText: 'What is this?  '
+    dialogueObject: {fileID: 11400000, guid: a31fde5cd212e1f4d9ce9581a760715c, type: 2}
+  - responseText: '...My fav. '
+    dialogueObject: {fileID: 11400000, guid: e6f76e67f2793974a88692dbfb0fa424, type: 2}

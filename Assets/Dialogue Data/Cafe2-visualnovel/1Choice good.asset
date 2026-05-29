@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
-  m_Name: Testing
+  m_Name: 1Choice good
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - This is to test.
+  - 'You: Uh what is this? '
+  - 'Date: Noodle! My favorite.  '
+  - "You: Maybe we can order a bit more? I don\u2019t mind chipping in some money.
+    \r\n "
+  - "Date: Just be grateful okay? Be happy I\u2019m paying for you. \r\n "
   responses: []

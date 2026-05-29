@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: 2Choice
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "Date: \u2026So what kind of music do you like to listen to? "
+  - 'You: Oh, I enjoy listening to lots of artists. '
+  - "You:  I\u2019ve been listening to a lot of Loafy actually. "
+  - "Date: Really? I\u2019m surprised, they are so underground. "
+  - "Date: Can you even name 3 songs by them then? \r\n"
+  responses:
+  - responseText: Defend Yourself
+    dialogueObject: {fileID: 11400000, guid: 59bb51213518c954ba6ed1c939bf6a27, type: 2}
+  - responseText: Panic
+    dialogueObject: {fileID: 11400000, guid: 0085113aaee7d6046ab76844728ac647, type: 2}
