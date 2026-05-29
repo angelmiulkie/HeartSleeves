@@ -8,12 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TextScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Title Screen.unity
     guid: e070479191ae0a7478bd10113888d071
-  - enabled: 1
-    path: Assets/Scenes/DatingAppTest.unity
-    guid: cc9484b13f99c96459fe31044ce1ff47
   - enabled: 1
     path: Assets/Scenes/Scene 1.unity
     guid: 2c16bfaf2bbf73d40ae45795bc331897
@@ -26,11 +23,23 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 4.unity
     guid: 9d44f7de4e527aa48b6cd36ae64da4aa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Creating Dating Profile.unity
     guid: 44408f9d02f2e1f44b7a322cf9e0970e
   - enabled: 1
+    path: Assets/Scenes/DatingAppTest.unity
+    guid: cc9484b13f99c96459fe31044ce1ff47
+  - enabled: 1
+    path: Assets/Scenes/Cafe Scene 1.unity
+    guid: 5d0263387599cad43833d7c3f17e1d8a
+  - enabled: 1
     path: Assets/Scenes/Visual Novel 1.unity
     guid: 6994b86757c959f4eaa412fd77e1a204
+  - enabled: 1
+    path: Assets/Scenes/Cafe Scene 2.unity
+    guid: 99f4cfdcbd0d8e145ade8ba1b50abb29
+  - enabled: 1
+    path: Assets/Scenes/Visual Novel 2.unity
+    guid: 343b51efc3fceb143883a5afc2583888
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
