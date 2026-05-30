@@ -68,8 +68,8 @@ public class CutsceneManager : MonoBehaviour
     }
 
     public void ChangeSceneOnDialogueEnd() {
-        SceneManager.LoadSceneAsync(3);
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
     
 }
