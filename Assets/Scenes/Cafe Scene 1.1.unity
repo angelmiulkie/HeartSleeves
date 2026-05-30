@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneTrigger
   playerControllerScript: {fileID: 1668807256}
   playerTag: Player
-  sceneToLoad: 5
+  sceneToLoad: 17
 --- !u!61 &981776511
 BoxCollider2D:
   m_ObjectHideFlags: 0
