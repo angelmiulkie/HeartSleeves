@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: Choice4
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - 'Date: Anyways I hope you enjoy the food! I want to make sure this is the best
+    and most memorable date.'
+  - 'Date: I worked endlessly to make it just, right for you...Dannu. '
+  - "You: Wah Dannu? Who\u2019s Dannu. "
+  - 'Date: Shoot...my ex.  '
+  - "Date: We broke up a month ago, and if I\u2019m being honest. "
+  - 'Date:  You remind me so much of them!!! I instantly knew I liked you, no love
+    you!!! '
+  - "Date: Don\u2019t you feel our natural chemistry??  "
+  - 'Date: The moment I matched with you, FOLlOWweD you home, and showed up to every
+    date you have been on '
+  - 'Date: I knew this was my 2nd chance to find TrUe LoVE '
+  - 'Date: Just say the word and we can make it official!!! *Pulls out ring* '
+  - 'Date: Marry Me!!! '
+  responses:
+  - responseText: Refuse
+    dialogueObject: {fileID: 11400000, guid: 8e97ae7068938504a9ab10e6e903ab3d, type: 2}

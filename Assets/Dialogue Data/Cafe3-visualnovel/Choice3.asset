@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: Choice3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "You: Yes. I\u2019m starving"
+  - "Date: I\u2019m sure you noticed, but I shut down the entire restaurant so it\u2019s
+    just us two."
+  - 'Date: I wanted our very first face-to-face meeting to be special. '
+  - 'Date: I even baked an entire cake, I know how much you like curling up on your
+    purple couch to watch TV.  '
+  - "You: \u2026I don\u2019t remember ever telling you that.  "
+  - 'Date: ...'
+  - 'You: ...'
+  - 'Date: Well, this is awkward haha. Do you wanna hear a joke? '
+  - 'Date: I hope I can make you laugh. Here it goes.. '
+  - 'Date: Why did the bicycle fall over? BECAUSE it was two tired!! '
+  responses:
+  - responseText: Fake Laugh
+    dialogueObject: {fileID: 11400000, guid: 934f6bd09bbd2004bacbfc12a35f7fba, type: 2}
+  - responseText: Smile Politely
+    dialogueObject: {fileID: 11400000, guid: 0d244ce0b552dc140a761dbc579e48d7, type: 2}

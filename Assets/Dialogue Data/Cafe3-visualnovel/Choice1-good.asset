@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: Choice1-good
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "You: Well, you were almost a whole hour late. I\u2019m flexible, but maybe a
+    message next time?"
+  - 'Date: Well. I already apologized, didn''t I? '
+  - "Don\u2019t ruin this date also  "
+  - 'You: Huh? What did you say?  '
+  - 'Date: I said sorry, again? '
+  responses: []

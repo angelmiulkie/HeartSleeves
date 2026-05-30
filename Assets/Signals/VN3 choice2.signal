@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
-  m_Name: Testing
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
-  dialogue:
-  - This is just for testing.
-  responses: []
+  m_Script: {fileID: 11500000, guid: d6fa2d92fc1b3f34da284357edf89c3b, type: 3}
+  m_Name: VN3 choice2
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalAsset
