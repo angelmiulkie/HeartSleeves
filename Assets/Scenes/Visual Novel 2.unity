@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885305797f2e08c46b744a68d2ea2a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
-  director: {fileID: 70139907}
+  director: {fileID: 97477043}
   dialogueUI: {fileID: 1696118083}
   cutsceneDialogue: {fileID: 11400000, guid: 568e5c364ad8f21458293387905536bb, type: 2}
   playerControllerScript: {fileID: 40246591}
@@ -373,184 +373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 888c72a08f144724490b5bdb29849b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
---- !u!1 &70139904
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 70139908}
-  - component: {fileID: 70139907}
-  - component: {fileID: 70139906}
-  - component: {fileID: 70139905}
-  m_Layer: 0
-  m_Name: Visual Novel 2 Timeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &70139905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70139904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 885305797f2e08c46b744a68d2ea2a0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
-  director: {fileID: 70139907}
-  dialogueUI: {fileID: 1696118083}
-  cutsceneDialogue: {fileID: 11400000, guid: f0cfc24ea8bcdec4c9ed4632c37772a6, type: 2}
-  playerControllerScript: {fileID: 40246591}
-  sceneToChange: 13
---- !u!114 &70139906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70139904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: 8434a464551faf14e91224546b75b9e8, type: 2}
-    - {fileID: 11400000, guid: 320c262d10e27aa458b9a66fac7ba9f3, type: 2}
-    - {fileID: 11400000, guid: b12a1f8c3b442da428a2e8aaddc5b1a1, type: 2}
-    - {fileID: 11400000, guid: 2057e4c5eebef5948af62a702356032c, type: 2}
-    - {fileID: 11400000, guid: 98297f6cd8780184d8625f7ec76cb683, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 70139905}
-          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
-          m_MethodName: PauseAndTriggerDialogue
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 70139905}
-          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
-          m_MethodName: PauseAndTriggerDialogue
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 70139905}
-          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
-          m_MethodName: PauseAndTriggerDialogue
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 70139905}
-          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
-          m_MethodName: PauseAndTriggerDialogue
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 70139905}
-          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
-          m_MethodName: PauseAndTriggerDialogue
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!320 &70139907
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70139904}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -4630661348093427442, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 70139906}
-  - key: {fileID: -7658519270813972464, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 3941488}
-  - key: {fileID: -7747239631872731662, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 378754401}
-  - key: {fileID: -1840064237931217484, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 514499599}
-  - key: {fileID: 6621984318752450624, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 1504788824}
-  - key: {fileID: 249273039029859300, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 33414790}
-  - key: {fileID: 2636868624516153062, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 1153289626}
-  - key: {fileID: -4391264023029714271, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 728522562}
-  - key: {fileID: -5844446898278641717, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 1300964552}
-  - key: {fileID: 6311437440280783176, guid: f03bcbaacc781704ea3f400bd7dfd92d, type: 2}
-    value: {fileID: 403409071}
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &70139908
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70139904}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33445, y: -0.42683, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &78444518
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,6 +510,137 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78444518}
   m_CullTransparentMesh: 1
+--- !u!1 &97477040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97477044}
+  - component: {fileID: 97477043}
+  - component: {fileID: 97477042}
+  - component: {fileID: 97477041}
+  m_Layer: 0
+  m_Name: Visual Novel 2 Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &97477041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97477040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885305797f2e08c46b744a68d2ea2a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
+  director: {fileID: 97477043}
+  dialogueUI: {fileID: 1696118083}
+  cutsceneDialogue: {fileID: 11400000, guid: f0cfc24ea8bcdec4c9ed4632c37772a6, type: 2}
+  playerControllerScript: {fileID: 40246591}
+  sceneToChange: 13
+--- !u!114 &97477042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97477040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 43228f098696a304f9d5f953c73a116d, type: 2}
+    - {fileID: 11400000, guid: 4ea14dc23c1eb894a805d4db29f0e7cc, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 97477041}
+          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
+          m_MethodName: PauseAndTriggerDialogue
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 97477041}
+          m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
+          m_MethodName: ChangeSceneOnDialogueEnd
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!320 &97477043
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97477040}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4633248899499919018, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 3941488}
+  - key: {fileID: -4282090628002811878, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 378754401}
+  - key: {fileID: 4440958752201991519, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 514499599}
+  - key: {fileID: 3302815539113640736, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 1300964552}
+  - key: {fileID: 4120647390067148217, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 97477042}
+  - key: {fileID: 2809284882083812691, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 33414790}
+  - key: {fileID: 5088214128486054747, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 1153289626}
+  - key: {fileID: 2027216912369129723, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 728522562}
+  - key: {fileID: -5032733727249464849, guid: e0fecce7125029a419f8fc505de47639, type: 2}
+    value: {fileID: 403409071}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &97477044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97477040}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.55239, y: -8.67202, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &135266339
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,7 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885305797f2e08c46b744a68d2ea2a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
-  director: {fileID: 70139907}
+  director: {fileID: 97477043}
   dialogueUI: {fileID: 1696118083}
   cutsceneDialogue: {fileID: 11400000, guid: e116e734d990a5149a359352adae26c1, type: 2}
   playerControllerScript: {fileID: 40246591}
@@ -1218,7 +1171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885305797f2e08c46b744a68d2ea2a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
-  director: {fileID: 70139907}
+  director: {fileID: 97477043}
   dialogueUI: {fileID: 1696118083}
   cutsceneDialogue: {fileID: 11400000, guid: 381cb08b388504145a6ab2640ea8ae1a, type: 2}
   playerControllerScript: {fileID: 40246591}
@@ -1732,7 +1685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885305797f2e08c46b744a68d2ea2a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
-  director: {fileID: 70139907}
+  director: {fileID: 97477043}
   dialogueUI: {fileID: 1696118083}
   cutsceneDialogue: {fileID: 11400000, guid: a1c31338b317edc4faaa6fa7ef2ee441, type: 2}
   playerControllerScript: {fileID: 40246591}
@@ -2122,7 +2075,7 @@ MonoBehaviour:
   onDialogueComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 70139905}
+      - m_Target: {fileID: 97477041}
         m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
         m_MethodName: ResumeCutscene
         m_Mode: 1
@@ -2510,7 +2463,6 @@ SceneRoots:
   - {fileID: 1740153470}
   - {fileID: 1696118087}
   - {fileID: 281939532}
-  - {fileID: 70139908}
   - {fileID: 530423131}
   - {fileID: 40246590}
   - {fileID: 33414789}
@@ -2522,3 +2474,4 @@ SceneRoots:
   - {fileID: 1300964554}
   - {fileID: 514499601}
   - {fileID: 403409073}
+  - {fileID: 97477044}

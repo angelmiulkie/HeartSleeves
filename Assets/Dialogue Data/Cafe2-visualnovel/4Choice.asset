@@ -21,6 +21,6 @@ MonoBehaviour:
     \r\n "
   responses:
   - responseText: DODGE THE HUG
-    dialogueObject: {fileID: 0}
+    dialogueObject: {fileID: 11400000, guid: 109cbf692affff84980c79dc3700c7a4, type: 2}
   - responseText: Side Hug...
-    dialogueObject: {fileID: 0}
+    dialogueObject: {fileID: 11400000, guid: b527bb47f8f59444280655f8ec507e4f, type: 2}

@@ -307,7 +307,7 @@ MonoBehaviour:
   dialogueUI: {fileID: 1395027788}
   cutsceneDialogue: {fileID: 11400000, guid: 16f3c5aedd0f4e84abc6258c76fc9bc6, type: 2}
   playerControllerScript: {fileID: 977965277}
-  sceneToChange: 0
+  sceneToChange: 3
 --- !u!114 &540922051
 MonoBehaviour:
   m_ObjectHideFlags: 0
