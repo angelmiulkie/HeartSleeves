@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
+  m_Name: Choice2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "You: Um, well it is nice to finally meet you\u2026."
+  - 'I FORGOT THEIR NAME. What was their name? '
+  responses:
+  - responseText: Brehann
+    dialogueObject: {fileID: 11400000, guid: db37b928f4c87724aa0f8b9cc64e9392, type: 2}
+  - responseText: Brehane
+    dialogueObject: {fileID: 11400000, guid: db37b928f4c87724aa0f8b9cc64e9392, type: 2}
+  - responseText: Bryan
+    dialogueObject: {fileID: 11400000, guid: db37b928f4c87724aa0f8b9cc64e9392, type: 2}
+  - responseText: Brehanne
+    dialogueObject: {fileID: 11400000, guid: 14889ef5cbbcc464ca4df02a00556c33, type: 2}

@@ -10,14 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec424975c73c62f4aa54fb055eac9a7f, type: 3}
-  m_Name: Choice1
+  m_Name: Choice2-bad
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - "55 minutes later\u2026"
-  - "Date: Apologies that I\u2019m a little bit late, I wanted to make sure I look
-    nice for you."
-  responses:
-  - responseText: Make a comment
-    dialogueObject: {fileID: 11400000, guid: 7bc3c05c32fe9b145a811f83288e7ec6, type: 2}
-  - responseText: Pretend its fine.
-    dialogueObject: {fileID: 11400000, guid: 6eee802f035c305439c98eb01b8b01a1, type: 2}
+  - 'Date: Nice to meet you too! Do you want food? '
+  responses: []
