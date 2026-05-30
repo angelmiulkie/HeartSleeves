@@ -19,4 +19,4 @@ MonoBehaviour:
   - "Date: Didn\u2019t you wanna find love? No matter what?  "
   responses:
   - responseText: Refuse again
-    dialogueObject: {fileID: 0}
+    dialogueObject: {fileID: 11400000, guid: 5379eef0fb6a06141bf11b437d0d50d5, type: 2}
