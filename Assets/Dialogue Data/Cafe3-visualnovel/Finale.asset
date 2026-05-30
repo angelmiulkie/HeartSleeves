@@ -17,4 +17,4 @@ MonoBehaviour:
   - "You: I\u2019m done.  "
   responses:
   - responseText: Delete HeartSleeves App
-    dialogueObject: {fileID: 0}
+    dialogueObject: {fileID: 11400000, guid: 36f4ba632db5da64baa93bd83f0a240e, type: 2}
