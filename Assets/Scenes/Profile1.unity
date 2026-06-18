@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 806475187}
   - component: {fileID: 806475186}
   - component: {fileID: 806475189}
+  - component: {fileID: 806475190}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -256,6 +257,23 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &806475190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806475185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885305797f2e08c46b744a68d2ea2a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
+  director: {fileID: 0}
+  dialogueUI: {fileID: 0}
+  cutsceneDialogue: {fileID: 0}
+  playerControllerScript: {fileID: 0}
+  sceneToChange: 3
 --- !u!1 &867948919
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,7 +538,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1462657948}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 806475190}
+        m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
+        m_MethodName: ChangeSceneOnDialogueEnd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1462657948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,6 +817,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &2033996968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.324068
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.61937064
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 29659606106238939, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780886444110966155, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
+      propertyPath: m_Name
+      value: Player Character
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0614c617730d91c41adfbcace47fe98c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -795,3 +882,4 @@ SceneRoots:
   - {fileID: 1742915466}
   - {fileID: 867948923}
   - {fileID: 981537664}
+  - {fileID: 2033996968}
