@@ -17,6 +17,7 @@ MonoBehaviour:
 
 '
   - "You: I just like to dedicate my time really cultivating my finances and brilliant
-    mind. Grinding on coding problems and stocks literally every day. \r\n"
+    mind. \r\n"
+  - 'You: Grinding on coding problems and stocks literally every day. '
   - 'Date: That is so rad. We have so much in common.'
   responses: []
